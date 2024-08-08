@@ -22,7 +22,7 @@ export const AlertModal: React.FC<AlertModalProps> = ({isOpen, onClose, onConfir
     return (
         <Modal 
             title="Apakah anda yakin?" 
-            description="Toko dan data anda akan terhapus permanen" 
+            description="Data anda akan terhapus" 
             isOpen={isOpen} 
             onClose={onClose}>
                 <div className="flex items-center justify-end w-full pt-6 space-x-2 ">
