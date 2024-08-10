@@ -45,7 +45,7 @@ export const ImageUpload: React.FC<ImageUploadProps> = ({
                 ))}
             </div>
             
-            <CldUploadWidget onSuccess={onUpload} uploadPreset="tpjii0pq">
+            <CldUploadWidget onUpload={onUpload} uploadPreset="tpjii0pq">
                 {({open}) => { const onClick = () => {open()}
                     return(
                         <Button type="button" disabled={disabled} variant={"secondary"} onClick={onClick}>
